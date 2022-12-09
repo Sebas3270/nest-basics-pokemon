@@ -27,6 +27,10 @@ sudo npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
+5. Reload data in MongoDb database trough seed
+```
+http://localhost:3500/api/seed
+```
 
 ### Technologies used
 * MongoDb
