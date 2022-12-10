@@ -27,7 +27,12 @@ sudo npm i -g @nestjs/cli
 ```
 docker-compose up -d
 ```
-5. Reload data in MongoDb database trough seed
+5. Clone __.env.template__ file and rename it to __.env__ and complete the data specified in the ```.env```
+6. Run the backend with 
+```
+npm run start:dev
+```
+7. Reload data in MongoDb database trough seed
 ```
 http://localhost:3500/api/seed
 ```
